@@ -11646,7 +11646,6 @@ img {
 }
 
 #intro .col {
-  height: 50vh;
   padding: 9vw 6vw;
   font-size: 1.5rem;
 }
@@ -11654,10 +11653,16 @@ img {
 @media (min-width: 1000px) {
   #intro .col {
     padding: 18vw 12vw;
-    font-size: 2.0vw;
+    font-size: 3.5rem;
   }
 }
 
 #one {
   background-color: #212121;
+}
+
+.carrousel {
+  width: 50%;
+  max-width: 45rem;;
+  height: auto;
 }
