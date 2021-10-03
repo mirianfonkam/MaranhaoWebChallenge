@@ -51,6 +51,7 @@
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
   --bs-body-bg: #fff
+
 }
 
 *,
@@ -1043,23 +1044,20 @@ textarea.form-control-lg {
 
 .form-floating>.form-control:not(:-moz-placeholder-shown)~label {
   opacity: .65;
-  transform: scale(.65) translateY(-.5rem) translateX(0)
+  transform: scale(.2) translateY(-.5rem) translateX(0)
 }
 
 .form-floating>.form-control:not(:-ms-input-placeholder)~label {
-  opacity: .65;
-  transform: scale(.65) translateY(-.5rem) translateX(0)
+  transform: scale(.8) translateY(-.5rem) translateX(0)
 }
 
 .form-floating>.form-control:focus~label,
 .form-floating>.form-control:not(:placeholder-shown)~label {
-  opacity: .65;
-  transform: scale(.65) translateY(-.5rem) translateX(0)
+  transform: scale(.8) translateY(-.5rem) translateX(0)
 }
 
 .form-floating>.form-control:-webkit-autofill~label {
-  opacity: .65;
-  transform: scale(.65) translateY(-.5rem) translateX(0)
+  transform: scale(.8) translateY(-.5rem) translateX(0)
 }
 
 .btn {
@@ -1105,26 +1103,26 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #0085a1;
+  background-color: #046f85;
   border-color: #0085a1
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #007189;
+  background-color: #025566;
   border-color: #006a81
 }
 
 .btn-primary:focus {
   color: #fff;
-  background-color: #007189;
+  background-color: #005163;
   border-color: #006a81;
   box-shadow: 0 0 0 .25rem rgba(38, 151, 175, .5)
 }
 
 .btn-primary:active {
   color: #fff;
-  background-color: #006a81;
+  background-color: #186779;
   border-color: #006479
 }
 
@@ -2498,7 +2496,7 @@ textarea.form-control-lg {
 }
 
 body {
-  font-size: 1.25rem
+  font-size: 1.0rem
 }
 
 p {
@@ -2526,7 +2524,7 @@ p a {
 }
 
 .form-floating label {
-  color: #6c757d
+  color: #474747
 }
 
 #mainNav {
@@ -2700,9 +2698,9 @@ header.masthead .post-heading .meta a {
 }
 
 .section-heading {
-  font-size: 2.25rem;
+  font-size: 2.0rem;
   font-weight: 700;
-  margin-top: 3.75rem
+  margin-top: 3.0rem
 }
 
 .caption {
@@ -2793,7 +2791,7 @@ img {
 }
 
 .section>.row>.col {
-  height: 100vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -2801,14 +2799,14 @@ img {
 }
 
 #intro .col {
-  padding: 9vw 6vw;
+  padding: 14vw 8vw;
   font-size: 1.5rem
 }
 
 @media (min-width:1000px) {
   #intro .col {
     padding: 18vw 12vw;
-    font-size: 3.5rem
+    font-size: 2.5rem
   }
 }
 
